@@ -10,7 +10,7 @@ public class Factura {
         double total=0;
         for (Producto elemento:productos
              ) {
-            total+=elemento.getPrecio()+impuesto.calcularImpuesto(elemento),
+            total+=elemento.getPrecio()+impuesto.calcularImpuesto(elemento);
         }
         return total;
     }

@@ -1,10 +1,10 @@
 package com.corenetworks.presentacion;
 
-import com.corenetworks.modelo.Factura;
-import com.corenetworks.modelo.Iimpuesto;
-import com.corenetworks.modelo.Producto;
+import com.corenetworks.modelo.*;
 
-import java.awt.*;
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class ProbarProducto {
     public static void main(String[] args) {
